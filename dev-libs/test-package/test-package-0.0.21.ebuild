@@ -15,7 +15,7 @@ else
 	SRC_URI="https://github.com/hacking-actions/test-package/archive/${PV}.tar.gz -> ${P}.tar.gz"
 fi
 
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 SLOT="0"
 
